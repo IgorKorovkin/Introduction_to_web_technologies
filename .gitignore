@@ -15,6 +15,7 @@
 *.pdf
 *.rar
 s1/*.png
+*.jpg
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
