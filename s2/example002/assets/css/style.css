@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+html {
+    --s: 50px;
+    --c: #191b22;
+    --_s: calc(2*var(--s)) calc(2*var(--s));
+    --_g: 35.36% 35.36% at;
+    --_c: #0000 66%,#20222a 68% 70%,#0000 72%;
+    background: 
+      radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), 
+      radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), 
+      radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), 
+      radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), 
+      repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
+      radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
+    background-attachment: fixed;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.avatar{
+    display: block;
+    width: 40%;
+    border-radius: 40%;
+    margin: 5px auto;
+}
+
+.social-ico{
+    width: 32px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-card {
+    width: 400px;
+    margin: 70px auto;
+    padding: 20px;
+
+    border: 2px solid #303030;
+    background-color: rgba(32, 34, 42, 0.8);
+    opacity: 70%;
+    box-shadow: 0 5px 15px rgb(255, 0, 0);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+
+.main-card:hover {
+    background-color: #292929;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+
+
+
+.header1{
+    font-size: 32px;
+    font-weight: 600;
+    
+}
+
+.header2{
+    font-size: 28px;
+}
+
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.t-center {
+    text-align: center;
+}
+
+
+.spec{
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.list{
+    list-style: none;
+}
+
+.list li{
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.list li:hover{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    transition: 0.5s;
+    list-style: disclosure-closed;
+}
+
+.contacts{
+    margin-top: 10px;
+    display: block;    
+}
+
+.contact{
+    margin-left: 40px;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+
+.contact span{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+a{
+    color:black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
