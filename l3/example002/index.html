@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>JS</h1>
+    <hr>
+    <p>Пример1</p>
+    <!-- запрос данных от пользователя -->
+    <script language="JavaScript">
+        let name = prompt("Введите имя:");
+        alert(name)
+        let number = parseInt(prompt("Введите число"));
+        alert(number+10)
+        if (number<0) {
+            alert(number+10);
+        }
+        else {
+            alert(number-10);
+        }
+
+        // сокращенный вид условия
+        let age = parseInt(prompt("Введите Ваш возраст:"));
+        let accessAllowed = (age > 18) ? true : false;
+        
+        // || - или, && - и, ! - не
+    </script>
+</body>
+</html>
